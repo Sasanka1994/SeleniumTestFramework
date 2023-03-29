@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Test Suite" parallel="none" verbose="2">
+    <test name="Sample Test">
+        <parameter name="browser" value="chrome" />
+        <parameter name="headless" value="false" />
+
+        <groups>
+            <run>
+                <include name="smoke" />
+            </run>
+        </groups>
+
+        <classes>
+<!--            <class name="com.example.tests.LoginTest" />-->
+<!--            <class name="com.example.tests.DashboardTest" />-->
+<!--            <class name="com.example.tests.ProductTest" />-->
+        </classes>
+    </test>
+
+    <listeners>
+<!--        <listener class-name="com.example.listeners.TestListener" />-->
+    </listeners>
+</suite>

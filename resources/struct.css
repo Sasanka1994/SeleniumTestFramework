@@ -1,0 +1,44 @@
+my-selenium-testng-framework
+├───src
+│   ├───main
+│   │   ├───java
+│   │   │   ├───config
+│   │   │   │       Configuration.java
+│   │   │   │       PropertiesLoader.java
+│   │   │   ├───pages
+│   │   │   │       LoginPage.java
+│   │   │   │       DashboardPage.java
+│   │   │   │       ProductPage.java
+│   │   │   ├───utilities
+│   │   │   │       BrowserFactory.java
+│   │   │   │       WaitUtil.java
+│   │   │   │       ScreenshotUtil.java
+│   ├───test
+│   │   ├───java
+│   │   │   ├───tests
+│   │   │   │       LoginTest.java
+│   │   │   │       DashboardTest.java
+│   │   │   │       ProductTest.java
+│   │   │   ├───listeners
+│   │   │   │       TestListener.java
+│   │   │   ├───reports
+│   │   │   │       ExtentManager.java
+│   │   │   │       ExtentTestManager.java
+│   │   ├───resources
+│   │   │       testng.xml
+├───resources
+│       config.properties
+├───target
+│   ├───extent-reports
+│   │       index.html
+│   ├───surefire-reports
+│   │       emailable-report.html
+│   │       index.html
+│   │       testng-results.xml
+│   ├───test-classes
+│   │   ├───listeners
+│   │   ├───reports
+│   │   └───tests
+├───pom.xml
+├───.gitignore
+└───README.md
